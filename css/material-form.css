@@ -1,0 +1,66 @@
+.contact_me_form {
+  width: 100%;
+}
+
+.contact_me_form input[type="name"],
+.contact_me_form input[type="email"],
+.contact_me_form textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    border-radius: 3px;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .56);
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.contact_me_form input[type="name"]:focus,
+.contact_me_form input[type="email"]:focus,
+.contact_me_form textarea:focus {
+    box-shadow: 0 0 5px #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.contact_me_form button[type="submit"],
+.contact_me_form button[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 125px;
+    height: 35px;
+    background: #2196F3;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact_me_form button[type="submit"]:hover,
+.contact_me_form button[type="button"]:hover {
+    background: #1A77C9;
+}
+
+.contact_me_form button[type="submit"]:active,
+.contact_me_form button[type="button"]:active {
+    background: #1976D2;
+}
+
+#thankyou_message {
+height: 150px;
+}
+
+#thankyou_message h2 {
+padding-bottom: 10px;
+}

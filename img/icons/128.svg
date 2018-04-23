@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>128</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-680 -100)">
+<g id="128">
+<g id="Rectangle">
+<use xlink:href="#path0_fill" transform="translate(680 100)" fill="#F2F2F2"/>
+</g>
+<g id="V" filter="url(#filter0_d)">
+<use xlink:href="#path1_fill" transform="translate(680 100)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="700" y="112" width="90" height="107" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="2" dy="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.741176 0 0 0 0 0.741176 0 0 0 0 0.741176 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 0 0L 128 0L 128 128L 0 128L 0 0Z"/>
+<path id="path1_fill" d="M 76.3756 114.848C 72.3436 116.192 68.6956 116.864 65.4316 116.864C 60.5356 116.864 56.6956 115.088 53.9116 111.536C 51.2236 107.888 49.0156 102.752 47.2876 96.128C 46.9036 94.688 45.5596 89.408 43.2556 80.288C 38.7436 62.432 35.0956 49.52 32.3116 41.552C 29.5276 33.488 25.4476 27.392 20.0716 23.264C 21.2236 20.384 23.0956 18.08 25.6876 16.352C 28.3756 14.624 31.4956 13.76 35.0476 13.76C 38.5996 13.76 41.5276 15.152 43.8316 17.936C 46.1356 20.624 47.9596 23.936 49.3036 27.872C 50.7436 31.808 51.9916 35.6 53.0476 39.248C 54.1036 42.896 55.2076 47.408 56.3596 52.784C 57.6076 58.16 58.5676 62.528 59.2396 65.888C 60.0076 69.152 61.1596 74.816 62.6956 82.88C 64.3276 90.848 65.5276 96.656 66.2956 100.304C 82.4236 58.256 90.4876 30.176 90.4876 16.064C 90.4876 14.816 90.4396 13.904 90.3436 13.328C 91.7836 13.04 93.2716 12.896 94.8076 12.896C 98.6476 12.896 101.768 13.856 104.168 15.776C 106.664 17.6 107.912 20.24 107.912 23.696C 107.912 28.496 103.16 42.704 93.6556 66.32C 84.2476 89.84 78.4876 106.016 76.3756 114.848Z"/>
+</defs>
+</svg>
