@@ -1,3 +1,8 @@
+
+$(window).on("load", function(){
+  $('#preloader').fadeOut(1200,function(){$(this).remove();});
+});
+
 jQuery(document).ready(function($) {
 
   $('#fullpage').fullpage({
@@ -5,20 +10,15 @@ jQuery(document).ready(function($) {
     anchors:['about', 'work', 'skills','contact'],
     scrollBar: true
   });
-
-
-  $(window).on("load", function(){
-    $('#preloader').fadeOut(1200,function(){$(this).remove();});
-    });
-    $('.my-gallery').slick({
-      lazyLoad: 'ondemand',
-      infinite: 'false',
-      slidesToShow: 4,
-      slidesToScroll: 4
-    });
-    $('.my-gallery').slickLightbox({
-      itemSelector: 'li > a'
-    });
+  $('.my-gallery').slick({
+    lazyLoad: 'ondemand',
+    infinite: 'false',
+    slidesToShow: 4,
+    slidesToScroll: 4
+  });
+  $('.my-gallery').slickLightbox({
+    itemSelector: 'li > a'
+  });
 
 });
 
