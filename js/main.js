@@ -1,9 +1,8 @@
 
-$(window).on("load", function(){
-  $('#preloader').fadeOut(1200,function(){$(this).remove();});
-});
 
 jQuery(document).ready(function($) {
+
+  $('#preloader').fadeOut(1200,function(){$(this).remove();});
 
   $('#fullpage').fullpage({
     menu: '#pure-menu-list',
