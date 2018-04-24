@@ -7,7 +7,8 @@ jQuery(document).ready(function($) {
   $('#fullpage').fullpage({
     menu: '#pure-menu-list',
     anchors:['about', 'work', 'skills','contact'],
-    scrollBar: true
+    scrollBar: true,
+    lazyLoading: true
   });
   $('.my-gallery').slick({
     lazyLoad: 'ondemand',
