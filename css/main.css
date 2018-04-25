@@ -1,57 +1,11 @@
 @import "fullPage.css";
 @import "pure-min.css";
+@import "material-form.css";
 @import "grids-responsive-min.css";
 @import "slick-theme.css";
 @import "slick-lightbox.css";
 @import "slick.css";
-
-/* reset.css */
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, main {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+@import "reset.css";
 
 /* style.css */
 * {
@@ -118,14 +72,21 @@ i:hover {
 
 .side {
 	position: fixed;
-	height: 10vh;
+	height: 15vh;
 	z-index: 10;
 	background-color: #fff;
 	display: flex;
   align-items: center;
   flex-direction: row;
 }
-
+.fullpage-wrapper {
+	margin-top: 15vh;
+}
+@media screen and (min-width: 64em) {
+	.fullpage-wrapper {
+		margin-top: 0;
+	}
+}
 .social_container {
   display: none;
 }
@@ -170,27 +131,6 @@ width: 42px;
   margin-top: 10px;
   width: 100%;
   color: rgba(0, 0, 0, .56);
-}
-
-/* #about {
-	background-image: url('https://res.cloudinary.com/vikkeb/image/upload/e_blur:1000/c_scale,q_auto,w_1920/kimon-maritz-183501_wk6a6k.webp');
-} */
-/* #work {
-	background-image: url('https://res.cloudinary.com/vikkeb/image/upload/e_blur:1000/c_scale,q_auto,w_1920/igor-son-285029_o9k0dj.webp');
-} */
-/* #skill {
-	background-image: url('https://res.cloudinary.com/vikkeb/image/upload/e_blur:1000/c_scale,q_auto,w_1920/alesia-kazantceva-283291_yenvsy.webp');
-} */
-/* #contact {
-	background-image: url('https://res.cloudinary.com/vikkeb/image/upload/e_blur:1000/c_scale,q_auto,w_1920/matthew-kane-278419_nowpk3.webp');
-} */
-
-.about h1 {
-  font-size: 7rem !important;
-	margin-bottom: 0 !important;
-	font-weight: 400 !important;
-	line-height: 88px;
-	text-transform: uppercase;
 }
 
 .divider_wrapper h2 {
@@ -349,7 +289,6 @@ margin-top: 10vh;
 		align-items: center;
 		flex-direction: column;
 	}
-
 	.avatar {
 		display: block;
 		margin-top: 50px;
@@ -363,6 +302,13 @@ margin-top: 10vh;
 	.name_sub {
 		display: flex;
 	  margin-top: 10px;
+	}
+	.about h1 {
+	  font-size: 7rem !important;
+		margin-bottom: 0 !important;
+		font-weight: 400 !important;
+		line-height: 88px;
+		text-transform: uppercase;
 	}
 	.social_container {
 	  display: flex;
@@ -418,77 +364,4 @@ margin-top: 10vh;
 	width: 80%;
 	}
 
-}
-
-/* material-form.css */
-.contact_me_form {
-	margin-top: 25px;
-  width: 100%;
-}
-
-.pure-group h3 {
-	letter-spacing: normal;
-	}
-
-.contact_me_form input[type="name"],
-.contact_me_form input[type="email"],
-.contact_me_form textarea {
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-    outline: none;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 100%;
-    border-radius: 3px;
-    padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 12px;
-    font-size: 1.4em;
-    font-weight: 400;
-    color: rgba(0, 0, 0, .56);
-    background: #fff;
-    border: 1px solid #ccc;
-}
-
-.contact_me_form input[type="name"]:focus,
-.contact_me_form input[type="email"]:focus,
-.contact_me_form textarea:focus {
-    box-shadow: 0 0 5px #2196F3;
-    border: 1px solid #2196F3;
-}
-
-.contact_me_form button[type="submit"],
-.contact_me_form button[type="button"] {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 125px;
-    height: 35px;
-    background: #2196F3;
-    border: none;
-    border-radius: 2px;
-    font-size: 1.4em;
-    font-weight: 400;
-    color: #fff;
-}
-
-.contact_me_form button[type="submit"]:hover,
-.contact_me_form button[type="button"]:hover {
-    background: #1A77C9;
-}
-
-.contact_me_form button[type="submit"]:active,
-.contact_me_form button[type="button"]:active {
-    background: #1976D2;
-}
-
-#thankyou_message {
-height: 150px;
-}
-
-#thankyou_message h2 {
-padding-bottom: 10px;
 }

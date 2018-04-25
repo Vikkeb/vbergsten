@@ -37,12 +37,20 @@ html.fp-enabled,
     -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
     transition: all 0.3s ease-out;
 }
+
+
 .fp-section.fp-table, .fp-slide.fp-table {
     display: table;
     table-layout:fixed;
-    width: 80vw;
     float: right;
+    width: 100vw;
 }
+@media screen and (min-width: 64em) {
+  .fp-section.fp-table, .fp-slide.fp-table {
+      width: 80vw;
+  }
+}
+
 .fp-tableCell {
     display: table-cell;
     vertical-align: middle;
