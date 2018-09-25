@@ -1,12 +1,6 @@
-/* material-form.css */
 .contact_me_form {
-	margin-top: 25px;
   width: 100%;
 }
-
-.pure-group  {
-	letter-spacing: normal;
-	}
 
 .contact_me_form input[type="name"],
 .contact_me_form input[type="email"],
