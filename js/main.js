@@ -4,6 +4,7 @@ jQuery(document).ready(function($) {
   $(window).load(function(){
     $('#preloader').fadeOut(1200,function(){$(this).remove();});
     });
+
     $('.my-gallery').slick({
       lazyLoad: 'ondemand',
       infinite: 'false',
@@ -12,6 +13,19 @@ jQuery(document).ready(function($) {
     });
     $('.my-gallery').slickLightbox({
       itemSelector: 'li > a'
+    });
+
+    $('#fullpage').fullpage({
+      //options here
+      licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+      anchors:['about', 'work', 'skill', 'experience', 'contact'],
+      verticalCentered: true,
+      autoScrolling:true,
+      loopHorizontal: false,
+      scrollHorizontally: true,
+      menu: '.side',
+      navigation: true,
+      fixedElements: '.side'
     });
 
 });
