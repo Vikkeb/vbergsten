@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
     $('#fullpage').fullpage({
       //options here
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
-      anchors:['about', 'work', 'skill', 'experience', 'contact'],
+      anchors:['home', 'work', 'skill', 'experience', 'contact'],
       verticalCentered: true,
       autoScrolling:true,
       loopHorizontal: false,
