@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "fullpage.css";
+@import "material-form.css"
 
 /* style.css */
 * {
@@ -152,6 +153,20 @@ opacity: 1;
   cursor: pointer;
 }
 
+.send_button {
+  padding:  15px 45px 15px 45px;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  border:none;
+  transition: 0.2s;
+}
+
+.send_button:hover {
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  border: none;
+}
+
 section {
   display: flex;
   flex-direction: row;
@@ -221,13 +236,14 @@ margin-bottom: 55px;
 .contact_me_text {
 color: #fff;
 align-self: center;
-text-align: center;
+
 }
 
 .contact_me_text h2 {
 font-size: 96px;
 font-weight: 200;
 margin-bottom: 55px;
+text-align: center;
 
 }
 

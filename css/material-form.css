@@ -32,31 +32,6 @@
     border: 1px solid #2196F3;
 }
 
-.contact_me_form button[type="submit"],
-.contact_me_form button[type="button"] {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    width: 125px;
-    height: 35px;
-    background: #2196F3;
-    border: none;
-    border-radius: 2px;
-    font-size: 1.4em;
-    font-weight: 400;
-    color: #fff;
-}
-
-.contact_me_form button[type="submit"]:hover,
-.contact_me_form button[type="button"]:hover {
-    background: #1A77C9;
-}
-
-.contact_me_form button[type="submit"]:active,
-.contact_me_form button[type="button"]:active {
-    background: #1976D2;
-}
-
 #thankyou_message {
 height: 150px;
 }
