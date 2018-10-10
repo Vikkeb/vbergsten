@@ -15,6 +15,17 @@ jQuery(document).ready(function($) {
       itemSelector: 'li > a'
     });
 
+    $('.my-gallery-work').slick({
+      lazyLoad: 'ondemand',
+      infinite: 'false',
+      rows: 1,
+      slidesToShow: 4,
+    });
+    
+    $('.my-gallery-work').slickLightbox({
+      itemSelector: 'li > a'
+    });
+
     $('#fullpage').fullpage({
       //options here
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
