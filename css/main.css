@@ -54,9 +54,20 @@ html, body {
 .section:nth-child(1) {
   background-image: url(https://res.cloudinary.com/vikkeb/image/upload/b_rgb:ffffff,c_scale,e_blur:500,o_50,w_1920/v1501744059/kimon-maritz-183501_wk6a6k.webp);
 }
-.section:nth-child(2) {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+.work_blur_bg {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: url(https://res.cloudinary.com/vikkeb/image/upload/v1539783963/plans-1867745_1920_dykbzz.webp);
+  transition        : all .5s linear;
+  -moz-transition   : all .5s linear;
+  -webkit-transition: all .5s linear;
+  -o-transition     : all .5s linear;
 }
+
 .section:nth-child(3) {
   background-image: url(https://res.cloudinary.com/vikkeb/image/upload/b_rgb:ffffff,c_scale,e_blur:500,o_50,w_1920/v1501743739/alesia-kazantceva-283291_yenvsy.webp);
 }
@@ -393,6 +404,10 @@ margin-bottom: 55px;
   float: left;
 }
 
+.ux {
+  opacity: 0;
+}
+
 @media screen and (min-width: 64em) {
 	.avatar {
 		display: block;
@@ -440,6 +455,8 @@ margin-bottom: 55px;
 }
 
 .side {
+  position: absolute;
+  width: 20vw;
   height: 100vh;
   z-index: 10;
   background-color: #fff;
