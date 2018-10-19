@@ -37,13 +37,17 @@ jQuery(document).ready(function($) {
       menu: '.side',
       navigation: true,
       fixedElements: '.side',
-      afterRender: function() {
+      afterRender: function(origin, destination, direction) {
        $('.ux').fadeTo( 1, 0 );
        $('.work_blur_bg').css({ "filter": "blur(0px)" });
+       $('.main_headline_text').addClass('animated delay-1s flipInX');
+       $('.main_headline_subtext').addClass('animated delay-2s fadeIn');
+       $('.sub_head_wrapp').addClass('animated delay-2s fadeIn');
      },
-      afterLoad: function() {
+      afterLoad: function(origin, destination, direction) {
         $('.ux').fadeTo( 500, 1 );
         $('.work_blur_bg').css({ "filter": "blur(10px)" });
+        $('.skill_icon').addClass('animated delay-1s fadeInUp');
       }
 
     });

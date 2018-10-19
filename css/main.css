@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "fullpage.css";
-@import "material-form.css"
+@import "animate.css";
 
 /* style.css */
 * {
@@ -56,16 +56,17 @@ html, body {
 }
 
 .work_blur_bg {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  margin: 0px -10px -10px -10px;
   background-image: url(https://res.cloudinary.com/vikkeb/image/upload/v1539783963/plans-1867745_1920_dykbzz.webp);
-  transition        : all .5s linear;
-  -moz-transition   : all .5s linear;
+  transition: all .5s linear;
+  -moz-transition: all .5s linear;
   -webkit-transition: all .5s linear;
-  -o-transition     : all .5s linear;
+  -o-transition: all .5s linear;
 }
 
 .section:nth-child(3) {
@@ -280,6 +281,22 @@ font-weight: 200;
 margin-bottom: 55px;
 }
 
+.next_btn {
+  position: absolute;
+  bottom: 80px;
+  font-size: 24px;
+  align-self: center;
+  text-align: center;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+.next_btn p {
+font-weight: 300;
+color: #325773;
+margin-bottom: 30px;
+}
+
 .skill_icon_wrapper {
   display: flex;
   flex-direction: row;
@@ -475,7 +492,7 @@ margin-bottom: 55px;
 
 .content-wrapper {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: center;
   height: 100vh;
   width: 100%;
