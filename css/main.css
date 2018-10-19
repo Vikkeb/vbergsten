@@ -5,6 +5,8 @@
 /* style.css */
 * {
   font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -423,6 +425,10 @@ margin-bottom: 30px;
 
 .ux {
   opacity: 0;
+}
+
+.process_img {
+  shape-rendering: auto;
 }
 
 @media screen and (min-width: 64em) {
