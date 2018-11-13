@@ -454,6 +454,7 @@ margin-bottom: 30px;
 
 .process_img {
   width: 100%;
+  max-height: 400px;
   shape-rendering: auto;
 }
 

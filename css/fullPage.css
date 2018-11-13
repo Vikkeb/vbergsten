@@ -72,14 +72,19 @@ html.fp-enabled,
 }
 .fp-controlArrow.fp-prev {
     left: 100px;
-    width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    height: 60px;
+    width: 30px;
+    background-image: url("../img/arrow-left.svg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .fp-controlArrow.fp-next {
     right: 100px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    height: 60px;
+    width: 30px;
+    background-image: url("../img/arrow-right.svg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .fp-scrollable {
     overflow: hidden;
