@@ -5,26 +5,6 @@ jQuery(document).ready(function($) {
     $('#preloader').fadeOut(1200,function(){$(this).remove();});
     });
 
-    $('.my-gallery').slick({
-      lazyLoad: 'ondemand',
-      infinite: 'false',
-      rows: 2,
-      slidesToShow: 4,
-    });
-    $('.my-gallery').slickLightbox({
-      itemSelector: 'li > a'
-    });
-
-    $('.my-gallery-work').slick({
-      lazyLoad: 'ondemand',
-      infinite: 'false',
-      rows: 1,
-      slidesToShow: 4,
-    });
-
-    $('.my-gallery-work').slickLightbox({
-      itemSelector: 'li > a'
-    });
 
     $('.next_btn').click(function(){
       $.fn.fullpage.moveSectionDown();

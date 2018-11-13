@@ -435,6 +435,7 @@ margin-bottom: 30px;
 
 .my-gallery {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
 }
@@ -447,6 +448,10 @@ margin-bottom: 30px;
 .my-gallery figure {
   display: block;
   float: left;
+}
+
+.ui_thumbnail{
+  width:25%;
 }
 
 .ux {
