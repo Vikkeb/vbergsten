@@ -26,6 +26,11 @@ jQuery(document).ready(function($) {
       itemSelector: 'li > a'
     });
 
+    $('.next_btn').click(function(){
+      $.fn.fullpage.moveSectionDown();
+    });
+
+
     $('#fullpage').fullpage({
       //options here
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',

@@ -316,6 +316,7 @@ margin-bottom: 55px;
   text-align: center;
   animation-delay: 5s;
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
 .next_btn p {
