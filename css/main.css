@@ -318,6 +318,7 @@ margin-bottom: 55px;
   animation-delay: 5s;
   animation-iteration-count: infinite;
   cursor: pointer;
+  z-index: 1;
 }
 
 .next_btn p {
@@ -533,7 +534,7 @@ margin-bottom: 30px;
   display: flex;
   flex-direction:column;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh - 160px);
   width: 100%;
 }
 
