@@ -2,6 +2,8 @@
 @import "fullpage.css";
 @import "animate.css";
 @import "jquery.fancybox.min.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900&display=swap');
+
 
 /* style.css */
 * {
@@ -66,30 +68,12 @@ html, body {
   display: flex;
 }
 
-.webp .section:nth-child(1) {
-  background-image: url(https://res.cloudinary.com/vikkeb/image/upload/b_rgb:ffffff,c_scale,e_blur:500,o_50,w_1920/v1501744059/kimon-maritz-183501_wk6a6k.webp);
+.section:nth-child(1) {
+  background-image: linear-gradient(to top, #83CCF3 0%, #BAD4E2 100%);
 }
 
-.no-webp .section:nth-child(1) {
-  background-image: url(https://res.cloudinary.com/vikkeb/image/upload/b_rgb:ffffff,c_scale,e_blur:500,o_50,w_1920/v1501744059/kimon-maritz-183501_wk6a6k.jpg);
-}
-
-.webp .work_blur_bg {
-  position: absolute;
-  top: 0;
-  left: -10px;
-  right: -10px;
-  bottom: -10px;
-  margin: 0px -10px -10px -10px;
-  background-image: url(https://res.cloudinary.com/vikkeb/image/upload/v1539783963/plans-1867745_1920_dykbzz.webp);
-  transition: all .5s linear;
-  -moz-transition: all .5s linear;
-  -webkit-transition: all .5s linear;
-  -o-transition: all .5s linear;
-}
-
-.no-webp .work_blur_bg {
-  background-image: url(https://res.cloudinary.com/vikkeb/image/upload/v1539783963/plans-1867745_1920_dykbzz.jpg);
+.section:nth-child(2) {
+  background-image: linear-gradient(to top, #FFAE00 0%, #FFC750 100%);
 }
 
 .webp .section:nth-child(3) {
@@ -112,6 +96,13 @@ html, body {
   height: 1px;
   margin-top: 25px;
   background-color: rgba(0,0,0,0.26);
+  margin-bottom: 25px;
+}
+
+.divider_white {
+  height: 4px;
+  margin-top: 25px;
+  background-color: #FFFFFF;
   margin-bottom: 25px;
 }
 
@@ -304,9 +295,13 @@ text-align: center;
 }
 
 .my_work_text h2 {
-font-size: 96px;
-font-weight: 200;
 margin-bottom: 55px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+color: #FFFFFF;
+text-shadow: 10px 14px 0px rgba(0, 0, 0, 0.4);
 }
 
 .next_btn {
@@ -440,11 +435,11 @@ margin-bottom: 30px;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
+  justify-content: space-between;
 }
 
 .my-gallery img {
   width: 100%;
-  height: auto;
 }
 
 .my-gallery figure {
@@ -454,7 +449,28 @@ margin-bottom: 30px;
 
 .ui_thumbnail{
   width:25%;
+  background-color: #FFFFFF;
+  padding: 20px;
 }
+
+.ui_thumbnail h4{
+margin-top: 20px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+
+.ui_thumbnail p{
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+
 
 .ux {
   opacity: 0;
