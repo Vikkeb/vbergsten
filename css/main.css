@@ -453,21 +453,20 @@ margin-bottom: 30px;
   padding: 20px;
 }
 
-.ui_thumbnail h4{
+.ui_thumbnail h4 {
 margin-top: 20px;
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
-font-size: 36px;
 line-height: 42px;
 text-align: center;
 }
 
-.ui_thumbnail p{
+.ui_thumbnail p {
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 0.4em;
 line-height: 16px;
 }
 
