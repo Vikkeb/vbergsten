@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "fullpage.css";
 @import "animate.css";
+@import "movingbubbles.css";
 @import "jquery.fancybox.min.css";
 
 /* style.css */
@@ -289,7 +290,6 @@ margin-bottom: 55px;
 
 .my_work_text {
 align-self: center;
-text-align: center;
 }
 
 .my_work_text h2 {
@@ -372,10 +372,14 @@ margin-bottom: 30px;
   width: 100%;
 }
 
-.my_work_wrapper {
+.my_work_wrapper.my_work_wrapper2 {
   margin-top: 55px;
   width: 100%;
   text-align: center;
+}
+
+.my_work_wrapper2 .ui_thumbnail {
+  width: 20%;
 }
 
 .my_work_image {
@@ -547,7 +551,7 @@ line-height: 16px;
   display: flex;
   flex-direction:column;
   justify-content: center;
-  height: calc(100vh - 160px);
+  height: 100%;
   width: 100%;
 }
 
