@@ -303,6 +303,13 @@ color: #FFFFFF;
 text-shadow: 10px 14px 0px rgba(0, 0, 0, 0.4);
 }
 
+.my_work_text h6 {
+text-align: center;
+color: #949494;
+font-weight: 400;
+margin-top: 10px;
+}
+
 .next_btn {
   position: absolute;
   bottom: 80px;
