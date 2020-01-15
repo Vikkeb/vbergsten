@@ -487,8 +487,9 @@ line-height: 16px;
 	.avatar {
 		display: block;
 		margin-top: 50px;
-		max-width: 170px;
-		min-width: 150px;
+    width: 10vw;
+		max-width: 300px;
+		min-width: 200px;
 	  border-radius: 100%;
 	  box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, .26)
 	}
@@ -513,7 +514,8 @@ line-height: 16px;
 
 @media screen and (min-width: 64em) {
 	.side {
-    height: 10vh;
+    width: 20vw;
+    height: 100vh;
     z-index: 10;
     background-color: #fff;
     display: flex;
@@ -530,13 +532,6 @@ line-height: 16px;
 
 .side {
   position: absolute;
-  width: 20vw;
-  height: 100vh;
-  z-index: 10;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .pure-menu-list {
