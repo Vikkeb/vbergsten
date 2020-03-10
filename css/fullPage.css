@@ -73,14 +73,14 @@ html.fp-enabled,
 .fp-controlArrow.fp-prev {
     left: 120px;
     height: 83px;
-    width: 133px;
+    width: 180px;
     background-image: url("../img/arrow_white_left.svg");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 .fp-controlArrow.fp-next {
     right: 120px;
-    height: 83px;
+    height: 92px;
     width: 172px;
     background-image: url("../img/arrow_white_right.svg");
     background-repeat: no-repeat; /* Do not repeat the image */
