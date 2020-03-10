@@ -94,7 +94,7 @@ html, body {
 .divider {
   height: 1px;
   background-color: rgba(0,0,0,0.26);
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .divider_white {
@@ -184,16 +184,23 @@ opacity: 1;
 }
 
 .view_button {
-  padding:  10px 25px 10px 25px;
+  padding:  10px 0 10px 0;
   background-color: #e5e3df;
-  border-radius: 10px;
+  border-radius: 32px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   border:none;
-  transition: 0.2s;
-  font-size: 18px;
-  font-weight: 800;
-  margin-top: 25px;
+  transition: all 0.3s ease 0s;
+  font-size: 16px;
+  margin-top: 15px;
   width: 100px;
 }
+
+.view_button:hover {
+  background-color: #2EE59D;
+box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+color: #fff;
+}
+
 
 .send_button {
   padding:  15px 45px 15px 45px;
@@ -319,8 +326,7 @@ text-shadow: 10px 14px 0px rgba(0, 0, 0, 0.4);
 text-align: center;
 color: #949494;
 font-weight: 400;
-margin-top: 10px;
-margin-bottom: 25px;
+margin-bottom: 15px;
 }
 
 .next_btn {
@@ -484,7 +490,7 @@ margin-bottom: 30px;
 }
 
 .ui_thumbnail h4 {
-margin-top: 20px;
+margin-top: 10px;
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
