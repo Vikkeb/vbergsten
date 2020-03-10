@@ -93,7 +93,6 @@ html, body {
 
 .divider {
   height: 1px;
-  margin-top: 25px;
   background-color: rgba(0,0,0,0.26);
   margin-bottom: 25px;
 }
@@ -321,6 +320,7 @@ text-align: center;
 color: #949494;
 font-weight: 400;
 margin-top: 10px;
+margin-bottom: 25px;
 }
 
 .next_btn {
@@ -403,6 +403,11 @@ margin-bottom: 30px;
   width: 20%;
 }
 
+.my_work_wrapper .ui_thumbnail {
+  width: 20%;
+  padding: 10px;
+}
+
 .my_work_image {
   width: 25%;
   height: 25%;
@@ -471,11 +476,11 @@ margin-bottom: 30px;
 }
 
 .ui_thumbnail{
-  width:25%;
+  width:20%;
   display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  padding: 20px;
+  padding: 10px;
 }
 
 .ui_thumbnail h4 {
