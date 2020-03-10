@@ -412,6 +412,7 @@ margin-bottom: 30px;
 .my_work_wrapper .ui_thumbnail {
   width: 20%;
   padding: 10px;
+  margin-top: 10px;
 }
 
 .my_work_image {

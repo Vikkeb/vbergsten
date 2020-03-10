@@ -71,7 +71,7 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 120px;
+    left: 40px;
     height: 83px;
     width: 180px;
     background-image: url("../img/arrow_white_left.svg");
@@ -79,7 +79,7 @@ html.fp-enabled,
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 .fp-controlArrow.fp-next {
-    right: 120px;
+    right: 40px;
     height: 92px;
     width: 172px;
     background-image: url("../img/arrow_white_right.svg");
