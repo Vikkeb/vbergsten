@@ -151,13 +151,14 @@ opacity: 1;
 .pure-menu-item a {
   padding: .5em .5em;
   color: rgba(0, 0, 0, .25);
-  font-size: 16px;
+  font-size: 24px;
   transition: all 0.35s linear;
 }
 
 .pure-menu-item.active a {
   color: rgb(0, 0, 0);
   padding-left: 12px;
+  font-weight: 800;
 }
 
 .pure-menu-link:focus {
@@ -181,6 +182,18 @@ opacity: 1;
 .contactme:hover {
   color: rgba(0, 0, 0, .87);
   cursor: pointer;
+}
+
+.view_button {
+  padding:  10px 25px 10px 25px;
+  background-color: #e5e3df;
+  border-radius: 10px;
+  border:none;
+  transition: 0.2s;
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 25px;
+  width: 100px;
 }
 
 .send_button {
@@ -459,6 +472,8 @@ margin-bottom: 30px;
 
 .ui_thumbnail{
   width:25%;
+  display: flex;
+  flex-direction: column;
   background-color: #FFFFFF;
   padding: 20px;
 }
@@ -478,6 +493,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 0.4em;
 line-height: 16px;
+flex: 1;
 }
 
 
