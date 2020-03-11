@@ -252,25 +252,25 @@ float: right;
 }
 
 .main_headline_text {
-	font-size: 112px;
+	font-size: clamp(100px, 4vw, 134px);
 	font-family: 'Permanent marker';
 	color: #325773;
 }
 
 .main_headline_subtext {
-	font-size: 34px;
+	font-size: clamp(29px, 2vw, 40px);
 	color: #325773;
 	margin: 30px;
 	text-transform: uppercase;
 }
 
 .main_headline_description{
-  font-size: clamp(17px, 1vw, 24px);
-  color: #325773;
-  text-align: left;
-  word-spacing: 3px;
-  font-style: italic;
-  margin-top: 20px;
+    font-size: clamp(17px, 1vw, 24px);
+    color: #325773;
+    text-align: left;
+    word-spacing: 3px;
+    font-style: italic;
+    margin-top: 30px;
 }
 
 .about_me_text {
@@ -378,24 +378,8 @@ margin-bottom: 30px;
 	justify-content: space-between;
 }
 
-.sub_line:first-child {
+.sub_line {
 	align-self: center;
-	width: 90px;
-	height: 3px;
-	background-color: #325773;
-}
-
-.sub_line:nth-child(2) {
-	align-self: center;
-	width: 100%;
-	height: 3px;
-	background-color: #325773;
-  margin-top: 100px;
-}
-
-.sub_line:nth-child(3) {
-	align-self: center;
-	width: 90px;
 	height: 3px;
 	background-color: #325773;
 }
