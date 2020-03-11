@@ -402,6 +402,10 @@ margin-bottom: 30px;
 
 .sub_text {
 	align-self: center;
+  color: #325773;
+  font-size: clamp(15px, 1vw, 30px)
+  weight: 700;
+  font-weight: bold;
 }
 
 .about_picture {
