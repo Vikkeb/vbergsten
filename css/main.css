@@ -537,7 +537,7 @@ margin-bottom: 30px;
 }
 
 .ui_thumbnail h4 {
-font-weight: clamp(23px, 1vw, 35px);
+font-size: clamp(20px, 1vw, 35px);
 margin-top: 10px;
 font-family: Raleway;
 font-style: normal;
@@ -550,7 +550,7 @@ text-align: center;
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
-font-size: 0.4em;
+font-size: clamp(14px, 1vw, 17px);
 line-height: 16px;
 flex: 1;
 }
