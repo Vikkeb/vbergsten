@@ -192,6 +192,7 @@ opacity: 1;
   transition: all 0.3s ease 0s;
   font-size: 16px;
   margin-top: 15px;
+  align-self: flex-end;
   width: 100px;
 }
 
