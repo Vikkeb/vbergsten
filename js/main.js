@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
       loopHorizontal: false,
       scrollHorizontally: true,
       menu: '.side',
-      navigation: true,
+      navigation: false,
       fixedElements: '.side',
       afterRender: function(origin, destination, direction) {
        $('.ux').fadeTo( 1, 0 );

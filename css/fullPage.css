@@ -71,20 +71,18 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 40px;
-    height: 83px;
-    width: 180px;
+    left: 30px;
+    height: 69px;
+    width: 155px;
     background-image: url("../img/arrow_white_left.svg");
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .fp-controlArrow.fp-next {
-    right: 40px;
-    height: 92px;
-    width: 172px;
+    right: 30px;
+    height: 65px;
+    width: 120px;
     background-image: url("../img/arrow_white_right.svg");
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .fp-scrollable {
     overflow: hidden;
