@@ -265,7 +265,7 @@ float: right;
 }
 
 .main_headline_description{
-  font-size: 17px;
+  font-size: clamp(17px, 1vw, 24px);
   color: #325773;
   text-align: left;
   word-spacing: 3px;
