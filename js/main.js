@@ -27,6 +27,8 @@ jQuery(document).ready(function($) {
        $('.work_blur_bg').css({ "filter": "blur(0px)" });
        $('.main_headline_text').addClass('animated delay-1s flipInX');
        $('.main_headline_subtext').addClass('animated delay-2s fadeIn');
+       $('.sub_line').addClass('animated delay-2s fadeIn');
+       $('.main_headline_description').addClass('animated delay-2s fadeIn');
        $('.sub_head_wrapp').addClass('animated delay-2s fadeIn');
      },
       afterLoad: function(origin, destination, direction) {
