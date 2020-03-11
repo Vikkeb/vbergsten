@@ -360,11 +360,45 @@ margin-bottom: 30px;
 .skill_icon_wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+.skill_icon {
+ display: flex;
+ flex-direction: column;
 }
 
 .skill_icon p {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.experience_icon_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.experience_icon {
+ display: flex;
+}
+
+.experience_icon_text {
+ display: flex;
+ flex-direction: column;
+ margin-left: 25px;
+}
+
+.experience_icon_text h5 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.experience_icon_text p {
   font-size: 16px;
-  margin: 55px 0px 30px 0px;
+  margin-top: 10px;
+  text-align: left;
 }
 
 .and_more_text {
