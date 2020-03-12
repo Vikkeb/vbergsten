@@ -397,7 +397,7 @@ margin-bottom: 30px;
 }
 
 .experience_icon_text h5 {
-  font-size: clamp(17px, 1vw, 24px);
+  font-size: clamp(17px, 1vw, 22px);
   margin-top: 10px;
   text-align: left;
 }
